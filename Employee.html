@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script type = "module" src="./scripts/Request.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+      #outerdiv{
+            /* /* display: flex;
+            justify-content:space-between; */
+            border: 2px solid black; 
+            padding: 3rem;
+            background: linear-gradient(rgb(183, 183, 249),rgb(68, 68, 136));
+      }
+      #headdiv{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      }
+      #btndiv{
+            border: 1px solid black;
+            
+      }
+      #formdiv{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+      }
+    input{
+      margin-bottom: 0.7rem;
+      height: 1.6rem;
+    }
+    #reqbtn{
+      margin: 0.5rem 6rem 0 6rem;
+      /* width: 100%; */
+    }
+    #div1{
+    display: flex;
+    justify-content:flex-end;
+    border: 1px solid black;
+    background-color: #11383f;
+    height: 4rem;
+}
+a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+</style>
+<body>
+      <div id="div1">
+            <a href=""></a>
+            <a href="Login.html">Home</a>
+            <a href="Admin.html">Admin</a>
+        </div>
+     <div id="outerdiv">
+      <div id="headdiv">
+             <h1>TRAVEL REQUESTOR</h1>
+             <button>Log out</button>
+      </div>
+      <div id="btndiv">
+            <button type="button" id="formbutton" class="btn btn-primary">Form</button>
+            <button type="button" id="requestbutton" class="btn btn-primary">View Request</button>
+      </div>
+      <div id="formdiv">
+            <h2>Travel Request Form</h2>
+            <label>Emp Id</label><input type="number" name="EmpId" placeholder="Employee Id" id="EmpId" required>
+            <label>Emp Name</label><input type="text" name="EmpName" placeholder="Employee Name" id="EmpName" required>
+            <label>Project</label><input type="text" name="Project" placeholder="Project " id="Project" required>
+            <label>Cause for travel</label><input type="text" name="Cause" placeholder="Cause" id="Cause" required>
+            <label>Source</label><input type="text" name="Source" placeholder="Source" id="Source" required>
+            <label>Destination</label><input type="text" name="Destination" placeholder="Destination" id="Destination" required>
+            <label>From date</label><input type="date" name="datefrom" id="fromDate" required>
+            <label>Number of days</label><input type="number" id="numberofdays" required>
+            <label>To date</label><input type="date" name="datefrom" id="toDate" required>
+            <label>Mode of Travel</label><input type="text" name="mode" placeholder="Mode of Travel" id="mode" required>
+            <button type="button" id="reqbtn">Request</button>
+      </div>
+     
+     </div>
+      
+</body>
+</html> 

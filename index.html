@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+      <title>Document</title>
+      <script type="module" src="./scripts/login.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+      #outerdiv{
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 6rem;
+            height: 400px;
+      }
+      label{
+            margin: 1rem;
+            color: white;
+            
+      }
+      input{
+            width: 12rem;
+            height: 2rem;
+      }
+      #btn{
+            margin-left: 8rem;
+            margin-top: 1.3rem;
+            color: white;
+            background-color: black;
+      }
+      #innerdiv{
+            border: 2px solid black;
+            padding: 2rem;
+            background-color: black;
+            /* padding-right: 6rem; */
+      }
+      h1{
+            margin-bottom: 5rem;
+      }
+      span{
+            color: red;
+      }
+
+</style>
+<body>
+     
+      <div id="outerdiv">
+            <h1>TRAVEL REQUESTOR</h1>
+            
+<div id="innerdiv">
+      
+      <label>User name</label> <input type="text" name="username" placeholder="Username" id="user" ><br><br>
+      <label> Pass word</label><input type="password" name="password" placeholder="Password" id="pass" ><br>
+      <button type="submit" id="btn">Login</button><span id="p1"></span>
+
+
+</div>
+
+      </div>
+      
+</body>
+</html>
